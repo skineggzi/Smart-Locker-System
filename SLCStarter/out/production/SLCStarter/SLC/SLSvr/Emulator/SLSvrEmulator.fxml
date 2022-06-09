@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.collections.FXCollections?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="482.0" prefWidth="301.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SLC.SLSvr.Emulator.SLSvrEmulatorController">
+    <children>
+
+        <Label layoutX="16.0" layoutY="424.0" text="Poll Response:   ">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Label>
+        <ChoiceBox fx:id="pollRespCBox" layoutX="169.0" layoutY="425.0" value="ACK">
+            <items>
+                <FXCollections fx:factory="observableArrayList">
+                    <String fx:value="ACK" />
+                    <String fx:value="NAK" />
+                    <String fx:value="Ignore" />
+                </FXCollections>
+            </items>
+        </ChoiceBox>
+      <Button fx:id="btnSetMU" layoutX="29.0" layoutY="94.0" onAction="#buttonPressed" mnemonicParsing="false" text="Button1" />
+      <Button fx:id="btnSetME" layoutX="29.0" layoutY="150.0" onAction="#buttonPressed" mnemonicParsing="false" text="Button2" />
+      <Button fx:id="btnRML" layoutX="29.0" layoutY="208.0" onAction="#buttonPressed" mnemonicParsing="false" text="Button3" />
+      <Label layoutX="110.0" layoutY="98.0" text="set all 'M' locker to USED">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="110.0" layoutY="154.0" text="set all 'M' locker to EMPTY">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="110.0" layoutY="212.0" text="have 'M' locker?">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>

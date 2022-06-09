@@ -1,0 +1,96 @@
+220413-11:04:54 [INFO] -- 
+220413-11:04:54 [INFO] -- 
+220413-11:04:54 [INFO] -- ============================================================
+220413-11:04:54 [INFO] -- SLCStarter: Application Starting...
+220413-11:04:56 [INFO] -- timer: starting...
+220413-11:04:56 [INFO] -- LockerDriver: starting...
+220413-11:04:56 [INFO] -- SLSvr: starting...
+220413-11:04:56 [INFO] -- TouchDisplayHandler: starting...
+220413-11:04:56 [INFO] -- BarcodeReaderDriver: starting...
+220413-11:04:56 [INFO] -- OctopusReaderDriver: starting...
+220413-11:04:56 [INFO] -- SLC: starting...
+220413-11:04:56 [INFO] -- TouchDisplayHandler: loading fxml: TouchDisplayEmulator.fxml
+220413-11:05:02 [INFO] -- Poll: TimesUp 26689 0
+220413-11:05:02 [INFO] -- No locker having penalty
+220413-11:05:02 [INFO] -- PollAck: TouchDisplayHandler is up!
+220413-11:05:02 [INFO] -- PollAck: BarcodeReaderDriver is up!
+220413-11:05:02 [INFO] -- PollAck: SLSvr is up!
+220413-11:05:02 [INFO] -- PollAck: LockerDriver is up!
+220413-11:05:02 [INFO] -- PollAck: OctopusReaderDriver is up!
+220413-11:05:05 [INFO] -- Locker(M) set all to USED
+220413-11:05:05 [INFO] -- Locker(M) set all to USED
+220413-11:05:05 [INFO] -- Locker(M) set all to USED
+220413-11:05:05 [INFO] -- Locker(M) set all to USED
+220413-11:05:05 [INFO] -- Locker(M) set all to USED
+220413-11:05:05 [INFO] -- Locker(M) set all to USED
+220413-11:05:05 [INFO] -- Locker(M) set all to USED
+220413-11:05:05 [INFO] -- Locker(M) set all to USED
+220413-11:05:05 [INFO] -- Locker(M) set all to USED
+220413-11:05:05 [INFO] -- Locker(M) set all to USED
+220413-11:05:05 [INFO] -- Locker(M) set all to USED
+220413-11:05:08 [INFO] -- Poll: TimesUp 93188 0
+220413-11:05:08 [INFO] -- No locker having penalty
+220413-11:05:08 [INFO] -- PollAck: BarcodeReaderDriver is up!
+220413-11:05:08 [INFO] -- PollAck: LockerDriver is up!
+220413-11:05:08 [INFO] -- PollAck: SLSvr is up!
+220413-11:05:08 [INFO] -- PollAck: OctopusReaderDriver is up!
+220413-11:05:08 [INFO] -- PollAck: TouchDisplayHandler is up!
+220413-11:05:14 [INFO] -- Poll: TimesUp 20839 0
+220413-11:05:14 [INFO] -- No locker having penalty
+220413-11:05:14 [INFO] -- PollAck: BarcodeReaderDriver is up!
+220413-11:05:14 [INFO] -- PollAck: TouchDisplayHandler is up!
+220413-11:05:14 [INFO] -- PollAck: OctopusReaderDriver is up!
+220413-11:05:14 [INFO] -- PollAck: LockerDriver is up!
+220413-11:05:14 [INFO] -- PollAck: SLSvr is up!
+220413-11:05:17 [WARNING] -- SLSvr: unknown message type: [Timer (TimesUp) -- TimesUp 17748 0]
+220413-11:05:17 [INFO] -- No locker
+220413-11:05:20 [INFO] -- Poll: TimesUp 55043 0
+220413-11:05:20 [INFO] -- No locker having penalty
+220413-11:05:20 [INFO] -- PollAck: SLSvr is up!
+220413-11:05:20 [INFO] -- PollAck: LockerDriver is up!
+220413-11:05:20 [INFO] -- PollAck: OctopusReaderDriver is up!
+220413-11:05:20 [INFO] -- PollAck: TouchDisplayHandler is up!
+220413-11:05:20 [INFO] -- PollAck: BarcodeReaderDriver is up!
+220413-11:05:22 [WARNING] -- SLSvr: unknown message type: [Timer (TimesUp) -- TimesUp 82675 0]
+220413-11:05:22 [INFO] -- No locker
+220413-11:05:25 [INFO] -- Locker(M) set all to EMPTY
+220413-11:05:25 [INFO] -- Locker(M) set all to EMPTY
+220413-11:05:25 [INFO] -- Locker(M) set all to EMPTY
+220413-11:05:25 [INFO] -- Locker(M) set all to EMPTY
+220413-11:05:25 [INFO] -- Locker(M) set all to EMPTY
+220413-11:05:25 [INFO] -- Locker(M) set all to EMPTY
+220413-11:05:25 [INFO] -- Locker(M) set all to EMPTY
+220413-11:05:25 [INFO] -- Locker(M) set all to EMPTY
+220413-11:05:25 [INFO] -- Locker(M) set all to EMPTY
+220413-11:05:25 [INFO] -- Locker(M) set all to EMPTY
+220413-11:05:25 [INFO] -- Locker(M) set all to EMPTY
+220413-11:05:26 [INFO] -- Poll: TimesUp 61245 0
+220413-11:05:26 [INFO] -- No locker having penalty
+220413-11:05:26 [INFO] -- PollAck: SLSvr is up!
+220413-11:05:26 [INFO] -- PollAck: TouchDisplayHandler is up!
+220413-11:05:26 [INFO] -- PollAck: OctopusReaderDriver is up!
+220413-11:05:26 [INFO] -- PollAck: LockerDriver is up!
+220413-11:05:26 [INFO] -- PollAck: BarcodeReaderDriver is up!
+220413-11:05:27 [WARNING] -- SLSvr: unknown message type: [Timer (TimesUp) -- TimesUp 52418 0]
+220413-11:05:27 [INFO] -- Have locker
+220413-11:05:32 [INFO] -- Poll: TimesUp 57435 0
+220413-11:05:32 [INFO] -- No locker having penalty
+220413-11:05:32 [INFO] -- PollAck: TouchDisplayHandler is up!
+220413-11:05:32 [INFO] -- PollAck: OctopusReaderDriver is up!
+220413-11:05:32 [INFO] -- PollAck: BarcodeReaderDriver is up!
+220413-11:05:32 [INFO] -- PollAck: LockerDriver is up!
+220413-11:05:32 [INFO] -- PollAck: SLSvr is up!
+220413-11:05:38 [INFO] -- Poll: TimesUp 17129 0
+220413-11:05:38 [INFO] -- No locker having penalty
+220413-11:05:38 [INFO] -- PollAck: BarcodeReaderDriver is up!
+220413-11:05:38 [INFO] -- PollAck: SLSvr is up!
+220413-11:05:38 [INFO] -- PollAck: LockerDriver is up!
+220413-11:05:38 [INFO] -- PollAck: TouchDisplayHandler is up!
+220413-11:05:38 [INFO] -- PollAck: OctopusReaderDriver is up!
+220413-11:05:44 [INFO] -- Poll: TimesUp 24460 0
+220413-11:05:44 [INFO] -- No locker having penalty
+220413-11:05:44 [INFO] -- PollAck: BarcodeReaderDriver is up!
+220413-11:05:44 [INFO] -- PollAck: TouchDisplayHandler is up!
+220413-11:05:44 [INFO] -- PollAck: OctopusReaderDriver is up!
+220413-11:05:44 [INFO] -- PollAck: LockerDriver is up!
+220413-11:05:44 [INFO] -- PollAck: SLSvr is up!

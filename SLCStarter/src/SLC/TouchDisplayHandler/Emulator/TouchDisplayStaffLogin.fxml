@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.collections.FXCollections?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="570.0" prefWidth="680.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SLC.TouchDisplayHandler.Emulator.TouchDisplayEmulatorController">
+    <children>
+        <AnchorPane prefHeight="480.0" AnchorPane.leftAnchor="20" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20">
+            <children>
+                <Label disable="true" layoutX="185.0" layoutY="14.0" prefHeight="51.0" prefWidth="272.0" text="Staff Login:">
+                    <font>
+                        <Font size="41.0" />
+                    </font>
+                </Label>
+                <TextField fx:id="staffPWShow" layoutX="98.0" layoutY="72.0" prefHeight="51.0" prefWidth="446.0">
+                    <font>
+                        <Font size="32.0" />
+                    </font>
+                </TextField>
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="white" height="76.0" layoutX="1.0" layoutY="157.0" stroke="BLACK" strokeType="OUTSIDE" width="212.0" />
+                <Label disable="true" layoutX="94.0" layoutY="159.0" text="1">
+                    <font>
+                        <Font size="60.0" />
+                    </font>
+                </Label>
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="white" height="76.0" layoutX="215.0" layoutY="157.0" stroke="BLACK" strokeType="OUTSIDE" width="212.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="white" height="76.0" layoutX="427.0" layoutY="157.0" stroke="BLACK" strokeType="OUTSIDE" width="212.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="white" height="76.0" layoutX="1.0" layoutY="235.0" stroke="BLACK" strokeType="OUTSIDE" width="212.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="white" height="76.0" layoutX="215.0" layoutY="235.0" stroke="BLACK" strokeType="OUTSIDE" width="212.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="white" height="76.0" layoutX="427.0" layoutY="235.0" stroke="BLACK" strokeType="OUTSIDE" width="212.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="white" height="76.0" layoutX="1.0" layoutY="313.0" stroke="BLACK" strokeType="OUTSIDE" width="212.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="white" height="76.0" layoutX="213.0" layoutY="313.0" stroke="BLACK" strokeType="OUTSIDE" width="212.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="white" height="76.0" layoutX="427.0" layoutY="313.0" stroke="BLACK" strokeType="OUTSIDE" width="212.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="white" height="76.0" layoutX="213.0" layoutY="391.0" stroke="BLACK" strokeType="OUTSIDE" width="212.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="white" height="76.0" layoutX="1.0" layoutY="391.0" stroke="BLACK" strokeType="OUTSIDE" width="212.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="white" height="76.0" layoutX="427.0" layoutY="391.0" stroke="BLACK" strokeType="OUTSIDE" width="212.0" />
+                <Label disable="true" layoutX="306.0" layoutY="159.0" text="2">
+                    <font>
+                        <Font size="60.0" />
+                    </font>
+                </Label>
+                <Label disable="true" layoutX="308.0" layoutY="315.0" text="8">
+                    <font>
+                        <Font size="60.0" />
+                    </font>
+                </Label>
+                <Label disable="true" layoutX="94.0" layoutY="315.0" text="7">
+                    <font>
+                        <Font size="60.0" />
+                    </font>
+                </Label>
+                <Label disable="true" layoutX="520.0" layoutY="237.0" text="6">
+                    <font>
+                        <Font size="60.0" />
+                    </font>
+                </Label>
+                <Label disable="true" layoutX="308.0" layoutY="237.0" text="5">
+                    <font>
+                        <Font size="60.0" />
+                    </font>
+                </Label>
+                <Label disable="true" layoutX="94.0" layoutY="237.0" text="4">
+                    <font>
+                        <Font size="60.0" />
+                    </font>
+                </Label>
+                <Label disable="true" layoutX="520.0" layoutY="159.0" text="3">
+                    <font>
+                        <Font size="60.0" />
+                    </font>
+                </Label>
+                <Label disable="true" layoutX="308.0" layoutY="393.0" text="0">
+                    <font>
+                        <Font size="60.0" />
+                    </font>
+                </Label>
+                <Label disable="true" layoutX="520.0" layoutY="315.0" text="9">
+                    <font>
+                        <Font size="60.0" />
+                    </font>
+                </Label>
+                <Label disable="true" layoutX="490.0" layoutY="390.0" text="OK">
+                    <font>
+                        <Font size="60.0" />
+                    </font>
+                </Label>
+                <Label disable="true" layoutX="87.0" layoutY="393.0" text="⍇">
+                    <font>
+                        <Font size="60.0" />
+                    </font>
+                </Label>
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="TRANSPARENT" height="480.0" onMouseClicked="#td_mouseClick" stroke="BLACK" strokeType="OUTSIDE" width="640" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+            </children>
+        </AnchorPane>
+        <Line endX="680.0" endY="520.0" startY="520.0" strokeWidth="2.0" />
+        <GridPane prefHeight="50.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="160.0" minWidth="10.0" prefWidth="91.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="245.0" minWidth="10.0" prefWidth="229.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="160.0" minWidth="10.0" prefWidth="160.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="160.0" minWidth="10.0" prefWidth="160.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                <Label text="Poll Response:   " GridPane.columnIndex="0" GridPane.rowIndex="0" />
+                <ChoiceBox fx:id="pollRespCBox" prefHeight="25.0" prefWidth="177.0" value="ACK" GridPane.columnIndex="1" GridPane.rowIndex="0">
+                    <items>
+                        <FXCollections fx:factory="observableArrayList">
+                            <String fx:value="ACK" />
+                            <String fx:value="NAK" />
+                            <String fx:value="Ignore" />
+                        </FXCollections>
+                    </items>
+                </ChoiceBox>
+                <Label text="Screen Switcher (for hacking): " GridPane.columnIndex="2" GridPane.rowIndex="0" />
+                <ChoiceBox fx:id="screenSwitcherCBox" prefHeight="25.0" prefWidth="177.0" value="StaffLogin" GridPane.columnIndex="3" GridPane.rowIndex="0">
+                    <items>
+                        <FXCollections fx:factory="observableArrayList">
+                            <String fx:value="Blank" />
+                            <String fx:value="Main Menu" />
+                            <String fx:value="Password" />
+                            <String fx:value="StaffLogin" />
+                            <String fx:value="Penalty" />
+                        </FXCollections>
+                    </items>
+                </ChoiceBox>
+            </children>
+        </GridPane>
+    </children>
+</AnchorPane>

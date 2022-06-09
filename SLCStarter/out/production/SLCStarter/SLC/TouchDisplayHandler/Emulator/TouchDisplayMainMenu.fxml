@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.collections.FXCollections?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="570.0" prefWidth="680.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SLC.TouchDisplayHandler.Emulator.TouchDisplayEmulatorController">
+    <children>
+        <AnchorPane layoutX="5.0" layoutY="33.0" prefHeight="570.0" prefWidth="680.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <Rectangle arcHeight="5.0" arcWidth="5.0" height="76.0" layoutX="2.0" layoutY="454.0" stroke="BLACK" strokeType="OUTSIDE" style="-fx-black: tran;" width="707.0" AnchorPane.bottomAnchor="45.0" AnchorPane.rightAnchor="-1.0" />
+            <Text disable="true" fill="WHITE" layoutX="247.0" layoutY="498.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bolder;" text="Delivery Login">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Text>
+            <Line endX="680.0" endY="520.0" layoutX="1.0" layoutY="-428.0" startY="520.0" stroke="RED" strokeWidth="2.0" />
+            <ImageView fitHeight="78.0" fitWidth="91.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/Elocker.png" />
+               </image>
+            </ImageView>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffe7b3" height="165.0" layoutX="253.0" layoutY="180.0" stroke="BLACK" strokeType="INSIDE" width="160.0" />
+            <ImageView fitHeight="126.0" fitWidth="109.0" layoutX="278.0" layoutY="196.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/pngtree-box-full-of-goods-image_1252285.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="296.0" layoutY="305.0" prefHeight="37.0" prefWidth="74.0" style="-fx-background-color: transparent;" text="Pick up" textFill="#2f2e2cfc">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="TRANSPARENT" height="522.0" layoutX="1.0" layoutY="1.0" onMouseClicked="#td_mouseClick" stroke="BLACK" strokeType="OUTSIDE" width="680.0" AnchorPane.bottomAnchor="48.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0" />
+            <Label layoutX="250.0" layoutY="33.0" prefHeight="39.0" prefWidth="166.0" style="-fx-background-color: transparent;" text="Main Menu" textFill="#2f2e2cfc">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            </children>
+        </AnchorPane>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d7d7d7" height="50.0" stroke="TRANSPARENT" strokeType="INSIDE" width="680.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+        <Line endX="680.0" endY="520.0" startY="520.0" strokeWidth="2.0" />
+        <GridPane prefHeight="50.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="160.0" minWidth="10.0" prefWidth="91.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="245.0" minWidth="10.0" prefWidth="229.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="160.0" minWidth="10.0" prefWidth="160.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="160.0" minWidth="10.0" prefWidth="160.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                <Label text="Poll Response:   " GridPane.columnIndex="0" GridPane.rowIndex="0" />
+                <ChoiceBox fx:id="pollRespCBox" prefHeight="25.0" prefWidth="177.0" value="ACK" GridPane.columnIndex="1" GridPane.rowIndex="0">
+                    <items>
+                        <FXCollections fx:factory="observableArrayList">
+                            <String fx:value="ACK" />
+                            <String fx:value="NAK" />
+                            <String fx:value="Ignore" />
+                        </FXCollections>
+                    </items>
+                </ChoiceBox>
+                <Label text="Screen Switcher (for hacking): " GridPane.columnIndex="2" GridPane.rowIndex="0" />
+                <ChoiceBox fx:id="screenSwitcherCBox" prefHeight="25.0" prefWidth="177.0" value="Main Menu" GridPane.columnIndex="3" GridPane.rowIndex="0">
+                    <items>
+                        <FXCollections fx:factory="observableArrayList">
+                            <String fx:value="Blank" />
+                            <String fx:value="Main Menu" />
+                            <String fx:value="Password" />
+                            <String fx:value="Scan Barcode" />
+                            <String fx:value="Penalty" />
+                            <String fx:value="LockerLocation" />
+                        </FXCollections>
+                    </items>
+                </ChoiceBox>
+            </children>
+        </GridPane>
+    </children>
+</AnchorPane>
